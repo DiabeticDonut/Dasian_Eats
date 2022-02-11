@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content = "width=device-width, intial-scale=1"/>
+    <title>Dasian Eats : : Indian</title>
+    <link href="Theme.css" rel = "stylesheet" />
+    <link href="W3.css" rel = "stylesheet" />
+    <script src="https://kit.fontawesome.com/7500391f16.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="w3-sidebar w3-bar-block w3-animate-left w3-padding w3-card-4" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large w3-theme w3-padding w3-button"><i class="fas fa-times"></i></button>
+  <a href="Popular.html" class="w3-bar-item w3-button font1 w3-theme w3-padding">Popular</a>
+  <a href="Indian.html" class="w3-bar-item w3-button font1 w3-theme">Indian</a>
+  <a href="Chinese.html" class="w3-bar-item w3-button font1 w3-theme">Chinese</a>
+</div>
+            <div class = "w3-card w3-theme w3-container">
+                 <button class="w3-hover-none w3-button w3-theme w3-xlarge" onclick="w3_open()"><i class="fas fa-bars"></i></button>
+                <a href="Index.html">
+                <img src="img/Logo.png" alt="Dasian Eats Logo" class="logo zoom">
+                </a>
+                
+              <div class=" search-container w3-display-topright w3-padding">
+    <form class="search font" role="search" method="get" action="https://studentweb.mga.edu/devambrose.kommuchri/Dasian%20Eats">
+      <input type="search" placeholder="Search" name="search" value="">
+      <button type="submit"><i class="fas fa-search"></i></button>
+    </form>
+  </div> 
+            </div>
+                </nav>
+            
+            <div id="main" class="w3-container w3-content">
+                <br> <br> <br>
+                <h1 class="w3-center">Indian Recipes</h1>
+                <br>
+                <div class="w3-row w3-section w3-stretch w3-center">
+                    
+                     <div class="w3-col s6">
+                <figure>
+                    <a href="Rajma%20Masala.html">
+                <img src="img/Rajma%20Masala.png" alt="Rajma Masala" class=" w3-mobile zoom w3-card w3-round-large">
+                    </a>
+                        <figcaption>Rajma Masala</figcaption>
+                    </figure>
+                    </div>
+                        <div class="w3-col s6">
+                <figure>
+                    <a href="Garlic%20Naan.html">
+                <img src="img/Garlic%20Naan.png" alt="Garlic Naan" class=" w3-mobile zoom w3-card w3-round-large">
+                    </a>
+                        <figcaption>Garlic Naan</figcaption>
+                    </figure>
+                    </div>
+                    <div class="w3-col">
+                <figure>
+                    <a href="Chilli%20Paneer.html">
+                <img src="img/Chilli%20Paneer.png" alt="Chilli Paneer" class=" w3-mobile zoom w3-card w3-round-large">
+                    </a>
+                        <figcaption>Chilli Paneer</figcaption>
+                    </figure>
+                    </div>
+                </div> <!-- section ends-->
+            </div> <!-- Main div-->
+        </header>
+        
+        <footer class=" w3-theme-l3 w3-margin-top w3-center">
+            <a href="#top"><h3>Back to Top</h3></a>
+            <h5>Subscribe to our newsletter and get recipes right to your inbox.</h5>
+            <form class= "newsletter">
+                <div class="w3-row-padding">
+            <input class="w3-input w3-padding w3-half w3-theme-l4" type = email placeholder="Email" required>
+                <button class="w3-button w3-theme" type="submit"><i class="fas fa-envelope"></i></button>
+            </div>
+            </form>
+            <div class="Social">
+            <a href="https://www.facebook.com/" target ="_blank">
+                            <figure>
+                        <img src ="img/FB%20Logo.png" alt = "Facebook page">
+                        </figure>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <figure>
+                            <img src="img/IG%20Logo.png" alt= "Instagram Page">
+                        </figure>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                        <figure>
+                            <img src ="img/Twitter%20Logo.png" alt="Twitter Page">
+                    </figure>
+                </a>
+            </div>
+        </footer>
+        <script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+    </body>
+</html>
